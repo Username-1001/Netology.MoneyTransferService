@@ -1,0 +1,7 @@
+services:
+  app:
+    image: transfer_app
+    container_name: transfer_1
+    build: ./
+    ports:
+      - 5500:5500
